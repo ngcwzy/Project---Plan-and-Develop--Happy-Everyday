@@ -1,0 +1,30 @@
+{
+  "strategy": "Obstacle avoidance and safe navigation",
+  "decisions": [
+    {
+      "condition": "start",
+      "action": "FORWARD"
+    },
+    {
+      "condition": "obstacle in front",
+      "action": "LEFT"
+    },
+    {
+      "condition": "obstacle on left",
+      "action": "RIGHT"
+    },
+    {
+      "condition": "obstacle on right",
+      "action": "LEFT"
+    },
+    {
+      "condition": "target in front",
+      "action": "FORWARD"
+    },
+    {
+      "condition": "safe to stop",
+      "action": "STOP"
+    }
+  ],
+  "stop_condition": "reached target or no obstacles detected for a safe stop"
+}

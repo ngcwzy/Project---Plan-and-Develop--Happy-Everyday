@@ -1,0 +1,6 @@
+{
+  "goal": "Navigate the robot from the start to the target, avoiding obstacles and stopping safely.",
+  "allowed_actions": ["FORWARD", "LEFT", "RIGHT", "STOP"],
+  "safe_stop": true,
+  "avoid_obstacles": true
+}
